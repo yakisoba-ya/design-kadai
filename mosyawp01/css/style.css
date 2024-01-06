@@ -1,0 +1,101 @@
+body{
+  margin: 0;
+  font-family: "Meiryo";
+}
+h2{
+  font-weight:bold ;
+  font-size: 32px;
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+
+img{
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
+
+p{
+  font-weight: bold;
+  font-size: 18px;
+}
+li{
+  list-style: none;
+}
+header{
+  background-color: rgb(250, 250, 235);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+header >a{
+  margin-left: 20%;
+  background-color: rgba(107, 79, 79, 0.842);
+  padding: 0 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+}
+header ul{
+display: flex;
+
+}
+header li {
+  padding:0 20px ;
+  margin-right: 50px;
+}
+
+.mainbox{
+  margin-bottom: 80px;
+}
+.mainvisual{
+width: 100%;
+}
+
+.about-box{
+  display: flex;
+  justify-content: center;
+}
+
+.about-box img{
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  padding: 20px;
+}
+.about-box-text{
+  width: 50%;
+}
+.about-box-text span{
+  display: inline;
+}
+
+.bicycle-box{
+  display: flex;
+}
+.bicycle-box div{
+  width: 30%;
+ margin: 0 20px;
+ text-align: center;
+}
+
+footer{
+  background-color: beige;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* sp */
+@media screen and(max-width: 796px){
+.bicycle-box {
+
+  flex-direction: column;
+}
+.bicycle-box div{
+  width: 100%;
+}
+}
